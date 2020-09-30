@@ -1,0 +1,165 @@
+body {
+	font-size: 15px;
+	font-family:'Spartan',sans-serif;
+	box-sizing: border-box;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container {
+	width: 100%;
+}
+.container2 {
+	width: 950px;
+	box-shadow: 10px 7px 20px 0px rgb(194,194,194);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background-color: white;
+	transform: translate(-50%,-50%);
+}
+.upper_section {
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 25px;
+	flex-basis: 100%;
+	display: flex;
+}
+.lower_section {
+	padding-bottom: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-top: 25px;
+	flex-basis: 100%;
+	display: flex;
+}
+.upper1 {
+	flex-basis: 50%;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.upper2 {
+	flex-basis: 50%;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.upper1 h1 {
+	color: hsl(300, 43%, 22%);
+}
+.upper1 p {
+	color: hsl(303, 10%, 53%);
+	font-size: 11px;
+	margin-top: 7px;
+}
+.upper2 p {
+	color: hsl(300, 43%, 22%);
+	font-size: 11px;
+	font-weight: 700;
+}
+.rating {
+	border-radius: 4px;
+	background-color: hsl(300, 24%, 96%);
+	padding: 10px 4px;
+	flex-basis: 100%;
+	display: flex;
+}
+.rating1 {
+	margin-right: 25%;
+	margin-top: 15px;
+}
+.rating2 {
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.rating3 {
+	margin-left: 20%;
+	margin-bottom: 15px;
+}
+.name {
+	background-color: hsl(300, 43%, 22%);
+	padding: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 7px;
+}
+.name1 {
+	margin-bottom: 12px;
+}
+.name2 {
+	margin-bottom: 6px;
+	margin-top: 6px;
+}
+.name3 {
+	margin-top: 12px;
+}
+.name p {
+	font-size: 10px;
+	color: hsl(300, 24%, 96%);
+	margin-top: -20px;
+}
+.name h3 {
+	font-size: 13px;
+	color: hsl(0, 0%, 100%);
+	font-weight: 300;
+}
+.name h4 {
+	font-size: 13px;
+	color: hsl(333, 80%, 67%);
+	font-weight: 300;
+}
+.flex {
+	flex-basis: 100%;
+	display: flex;
+}
+img {
+	border-radius: 50%;
+	height: 50%;
+	widows: 50%;
+}
+
+.mt-icon{
+	color: orange;
+	font-size: 14px !important;
+}
+
+@media only screen and (max-width: 750px) {
+	.container {
+		display: flex;
+	}
+	.container2 {
+		width: 100%;
+		max-width: 450px;
+		margin: auto;
+		position: absolute;
+		top: 25%;
+		left: 40%;
+		text-align: center;
+		transform: translate(-50%,-23%);
+		margin: 50px 50px;
+	}
+	.upper_section, .lower_section {
+		flex-flow: column;
+		margin: 0 0;
+	}
+	.rating1, .rating2, .rating3 {
+		margin-right: 0;
+		margin-left: 0;
+		text-align: justify-all;
+	}
+
+	.rating {
+		flex-flow: column;
+	}
+	.name {
+		text-align: left;
+	}
+}
