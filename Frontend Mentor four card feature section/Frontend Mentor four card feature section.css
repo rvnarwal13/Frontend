@@ -1,0 +1,116 @@
+body {
+	background-color: hsl(135,0%,93%);
+	box-sizing: border-box;
+	font-size: 14px;
+	font-family: 'Poppins', sans-serif;
+}
+.container {
+	margin: auto;
+}
+.container2 {
+	padding: 25px 25px;
+}
+.top {
+	text-align: center;
+	max-width: 320px;
+	margin: 25px auto;
+}
+.p1 {
+	font-size: 20px;
+	font-weight: 200;
+	color: hsl(229, 6%, 66%);
+}
+.p2 {
+	font-size: 20px;
+	font-weight: bold;
+	color: hsl(234, 12%, 34%);
+}
+.p3 {
+	font-weight: 400;
+	font-size: 10px;
+	color: hsl(229, 6%, 66%);
+}
+.flex {
+	display: flex;
+	flex-basis: 100%;
+	max-width: 720px;
+	margin: auto;
+}
+.flex h4 {
+	font-size: 12px;
+	font-weight: 400;
+	color: hsl(234, 12%, 34%);
+	text-align: left;
+}
+.flex p {
+	color: hsl(229, 6%, 66%);
+	font-weight: 200;
+	font-size: 9px;
+	text-align: left;
+}
+.flex div {
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 5px;
+}
+.supervisor {
+	margin: auto 0px;
+	background-color: white;
+	text-align: right;
+	max-width: 200px;
+	padding: 10px 10px;
+	box-shadow: 10px 10px 20px 0px rgb(194,194,194);
+}
+.calc {
+	margin: auto 0px;
+	background-color: white;
+	text-align: right;
+	max-width: 200px;
+	padding: 10px 10px;
+	box-shadow: 10px 10px 20px 0px rgb(194,194,194);
+}
+.team {
+	background-color: white;
+	text-align: right;
+	max-width: 200px;
+	padding: 10px 10px;
+	box-shadow: 10px 10px 20px 0px rgb(194,194,194);
+}
+.karma {
+	margin-top: 25px;
+	background-color: white;
+	text-align: right;
+	max-width: 200px;
+	padding: 10px 10px;
+	box-shadow: 10px 10px 20px 0px rgb(194,194,194);
+}
+img {
+	padding: 5px 5px;
+}
+
+@media only screen and (max-width: 750px) {
+	.container2 {
+		margin: auto;
+	}
+	.p3 {
+		font-size: 15px;
+	}
+	.top {
+		max-width: 320px;
+	}
+	.flex {
+		flex-flow: column;
+		max-width: 320px;
+		margin: auto;
+	}
+	.flex div {
+		margin: auto;
+	}
+	.middle div {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.supervisor {
+		max-width: 320px;
+	}
+}
